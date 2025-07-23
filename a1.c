@@ -3,7 +3,7 @@ int main()
 {
         int x,y,z;
         printf("Enter the three values:");
-        scanf("%d %d%d",&x, &y,&z);
+        scanf("%d%d%d",&x,&y,&z);
         if(x>y&&x>z)
                 printf("x is greater");
         else if(y>x&&y>z)
